@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+<!-- Navbar-->
 <body>
 
     <div class="navbar">
@@ -29,12 +30,18 @@
         </div>
         <div class="navbar__s3">
             <p>Courses</p>
-            <p>My Learning</p>
+            <!-- mylearning-->
+            <div class="my-learning">
+                <p>My Learning</p>
+                <div class="my-learning--popup"><p>You did not purchase anything yet</p></div>
+            </div>
             <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
             <i class="fa-solid fa-bell" style="color: #000000;"></i>
             <i class="fa-solid fa-user" style="color: #000000;"></i>
         </div>
-
+        <div class="navbar__s4">
+        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
     </div>
  
 <!-- categories-->
@@ -50,8 +57,12 @@
 <!-- sale image-->
 <div class="sale-image">
     <img src="./images/sales.jpg" alt="sale image">
-</div>
 
+    <div class="offer-box">
+    <h2>Udemy Flash Sale! 24 hours to save.</h2>
+    <p>get the top Courses for just 499.Just one day to save but a lifetime to learn.</p>
+    </div>
+</div>
 <!--Recommended-->
 
 <div class="recommended">
@@ -60,40 +71,43 @@
     <div class="recommended__container">
 
         <div class="course-card">
-            <div id="aa">
-            <img src="./images/code1.jpg">
-            <h3>2023 Python Data Visualisation class<h3>
+            <img src="./images/code1.jpg"></img>
+            <h3>2023 Python Data Visualisation class</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
-            <div id="b">
+        </div>
+       
+           
+        <div class="course-card"> 
             <img src="./images/code2.jpg">
             <h3>Advance Programming with EMC</h3>
             <p>Col Steele</p>
             <p>3.9 🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
-            <div id="c">
+        </div>
+
+        <div class="course-card">
             <img src="./images/code3.jpg">
             <h3>Web Development Bootcamp 2023</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
-            <div id="d">
+        </div>
+
+        <div class="course-card">
             <img src="./images/code4.jpg">
             <h3>Master UI/UX Designing with Figma</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
-            <p>₹449&nbsp;<del>1999</del></p>
-            </div>
+            <p>₹449&nbsp;<del>1999</del></p>  
         </div>
     </div>
 </div>
-
 <!--Topic-->
+
 <div class="topic">
+    <h1 class="topics__title">Topics recommended for you</h1>
     <div class="topics__container">
         <p>Website</p>
         <p>Javascript</p>
@@ -115,58 +129,67 @@
     <div class="recommended__container">
 
         <div class="course-card">
-            <div id="a">
             <img src="./images/cyper.jpg">
             <h3>2023 Python Data Visualisation class</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
             <p>₹449 &nbsp;<del>1999</del></p>
-            </div>
-            <div id="b">
+        </div>
+
+        <div class="course-card">
+            
             <img src="./images/c(2).jpg">
             <h3>Advance Programming with EMC</h3>
             <p>Col Steele</p>
             <p>3.9 🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
-            <div id="c">
+        </div>
+
+        <div class="course-card">
+            
             <img src="./images/c(3).jpg">
             <h3>Web Development Bootcamp 2023</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
-            <div id="d">
+        </div>
+
+        <div class="course-card">    
             <img src="./images/c5.jpeg">
             <h3>Master UI/UX Designing with Figma</h3>
             <p>Col Steele</p>
             <p>4.9 🌟🌟🌟🌟</p>
             <p>₹449&nbsp;<del>1999</del></p>
-            </div>
+        </div>
+</div>
+    <div class="recommended">
+        <div class="recommended__container">
 
-        <div class="course-card--3">
-            <div id="a">
+            <div class="course-card">
                 <img src="./images/code1.jpg">
                 <h3>2023 Python Data Visualisation class</h3>
                 <p>Col Steele</p>
                 <p>4.9 🌟🌟🌟🌟</p>
                 <p>₹449&nbsp;<del>1999</del></p>
             </div>
-            <div id="b">
+
+            <div class="course-card">
                 <img src="./images/code2.jpg">
                 <h3>Advance Programming with EMC</h3>
                 <p>Col Steele</p>
                 <p>3.9 🌟🌟🌟</p>
                 <p>₹449&nbsp;<del>1999</del></p>
             </div>
-            <div id="c">
+
+            <div class="course-card">
                 <img src="./images/code3.jpg">
                 <h3>Web Development Bootcamp 2023</h3>
                 <p>Col Steele</p>
                 <p>4.9 🌟🌟🌟🌟</p>
                 <p>₹449&nbsp;<del>1999</del></p>
             </div>
-            <div id="d">
+
+            <div class="course-card">
                 <img src="./images/code4.jpg">
                 <h3>Master UI/UX Designing with Figma</h3>
                 <p>Col Steele</p>
@@ -174,8 +197,8 @@
                 <p>₹449&nbsp;<del>1999</del></p>
             </div>
 
+        </div>
     </div>
-</div>
 
 <!--Footer-->
 <div class="footer">
